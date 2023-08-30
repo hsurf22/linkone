@@ -81,6 +81,50 @@
 <script src="js/plugins.js"></script>
 <script src="js/scripts.js"></script>
 
+
+<script>
+// Main menu hot fix
+(function ($) {
+
+const dropdownTrigger = document.createElement("i");
+dropdownTrigger.className = "ui-arrow-down nav__dropdown-trigger";
+
+const toggleBtn = document.getElementsByClassName("sub-menu-toggle");
+
+Array.prototype.forEach.call(toggleBtn, (el) => {
+  // Do stuff here
+  el.replaceWith(dropdownTrigger);
+});
+
+/* Mobile Navigation
+-------------------------------------------------------*/
+$(".nav__dropdown-trigger").on("click", function () {
+  console.log("Clicked");
+  if ($(this).hasClass("active")) {
+    $(this).removeClass("active");
+  } else {
+    $(this).addClass("active");
+  }
+});
+
+if ($("html").hasClass("mobile")) {
+  $("body").on("click", function () {
+    $(".sub-menu").addClass("hide-dropdown");
+  });
+
+  $(".menu-item-has-children").on("click", "> a", function (e) {
+    e.preventDefault();
+  });
+
+  $(".menu-item-has-children").on("click", function (e) {
+    e.stopPropagation();
+    $(".sub-menu").removeClass("hide-dropdown");
+  });
+}
+
+})(jQuery);
+</script>
+
 <!-- Cookies -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script src="js/cookies.js"></script>

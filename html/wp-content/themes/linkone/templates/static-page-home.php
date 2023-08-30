@@ -4,20 +4,19 @@
 ?>
 
     <!-- Triangle Image -->
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-right">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-right">
       <g>
-        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#img1)" />
-        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#triangle-gradient)" fill-opacity="0.7" />
+        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#img1)"></path>
+        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#triangle-gradient)" fill-opacity="0.7"></path>
       </g>
       <defs>
         <pattern id="img1" patternUnits="userSpaceOnUse" width="500" height="500">
           <image xlink:href="img/hero/hero.jpg" x="50" y="70" width="500" height="500"></image>
         </pattern>
 
-        <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse" >
-        <stop offset="0" stop-color="#4C86E7"/>
-        <stop offset="1" stop-color="#B939E5"/>
+        <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#4C86E7"></stop>
+        <stop offset="1" stop-color="#B939E5"></stop>
         </linearGradient>
       </defs>    
     </svg>
@@ -32,7 +31,7 @@
           <div class="row">
             <div class="col-lg-5 offset-lg-1">
               <div class="hero__text-holder">
-                <h1 class="hero__title hero__title--boxed">Marketing That Generate Results.</h1>
+                <h1 class="hero__title hero__title--boxed">"아사히 남았어요?" 후쿠시마 오염수發 ‘노재팬’은 없었다.</h1>
                 <h2 class="hero__subtitle">Focus on engaging, reusable content that decrease the cost per leads while helps you to increase profits margin.</h2>
               </div>              
             </div>

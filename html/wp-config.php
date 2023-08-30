@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wp1' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '66606660' );
+define( 'DB_PASSWORD', '00450045' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
